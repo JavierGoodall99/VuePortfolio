@@ -17,7 +17,7 @@
                 <router-link :to="{path: '/', hash: '#resume'}">Resume</router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/#projects">Projects</router-link>
+                <router-link :to="{path: '/', hash: '#projects'}">Projects</router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/#testimonials">Testimonials</router-link>
